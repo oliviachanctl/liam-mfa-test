@@ -1,0 +1,5 @@
+liamId|username|mfaType|expectedErrorCode|expectedStatus|expectedMessage
+|liammfauser5@test4.control.centurylink.com|appfactor|412|PRECONDITION_FAILED|User is already enabled for MFA
+|liammfauser5@test4.control.centurylink.com|phone|400|BAD_REQUEST|Invalid mfaType, only appfactor or courier is allowed
+664a67f1-5633-4816-81b5-77a1bca92922|liammfauser5@test4.control.centurylink.com|appfactor|404|NOT_FOUND|User[664a67f1-5633-4816-81b5-77a1bca92922] does not exist
+invalidId|liammfauser5@test4.control.centurylink.com|appfactor|400|BAD_REQUEST|Invalid liamId

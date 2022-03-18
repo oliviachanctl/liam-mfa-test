@@ -1,0 +1,4 @@
+liamId|username|mfaType|expectedErrorCode|expectedStatus|expectedMessage
+|liammfauser5@test4.control.centurylink.com|412|PRECONDITION_FAILED|User doesn't have MFA enabled
+664a67f1-5633-4816-81b5-77a1bca92922|liammfauser5@test4.control.centurylink.com|404|NOT_FOUND|User[664a67f1-5633-4816-81b5-77a1bca92922] does not exist
+invalidliamId|liammfauser5@test4.control.centurylink.com|400|BAD_REQUEST|Invalid liamId
